@@ -107,10 +107,10 @@ select year(orderdate),salesamount from sales;
 # Month wise saleamount
 select monthname(orderdate),salesamount from sales;
 
-#Quarter wise sales amount
+# Quarter wise sales amount
 select concat("Q",quarter(orderDate)) "Quarter",salesamount from sales;
 
-#Sales Amount and Total productioncost together
+# Sales Amount and Total productioncost together
 select salesamount, totalproductcost from sales;
 
 
